@@ -99,7 +99,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     // if (m.isGroup) return conn.sendButton(m.chat, text.trim(), conn.getName(conn.user.jid), pp, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
     //conn.sendHydrated(m.chat, text.trim(), conn.getName(conn.user.jid), await genProfile(conn, m), 'https://youtu.be/Gr6yuCbSGTI', 'YouTube', null, null, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
-   conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
+   conn.sendButton(m.chat, `*${wish()}, ${name}*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://youtu.be/Gr6yuCbSGTI",
     mediaType: "VIDEO",
     description: "https://youtu.be/Gr6yuCbSGTI", 
@@ -147,19 +147,19 @@ function wish() {
   const time = moment.tz('Asia/Kolkata').format('HH')
   wishloc = ('Hi')
   if (time >= 0) {
-    wishloc = ('Night Rider')
+    wishloc = ('Pengendara malam')
   }
   if (time >= 4) {
-    wishloc = ('Good Morning')
+    wishloc = ('Selamat pagi🏙️)
   }
   if (time >= 12) {
-    wishloc = ('Good Afternoon')
+    wishloc = ('Selamat siang')
   }
   if (time >= 16) {
-    wishloc = ('️Good Evening')
+    wishloc = ('️Selamat malam')
   }
   if (time >= 23) {
-    wishloc = ('Night Rider')
+    wishloc = ('Pengendara malam')
   }
   return wishloc
 }
