@@ -65,7 +65,8 @@
         }
       }
     ],
-    "lastAccountSyncTimestamp": 1657529705
+    "lastAccountSyncTimestamp": 1657529705,
+    "myAppStateKeyId": "AAAAAIbz"
   },
   "keys": {
     "preKeys": {
@@ -386,8 +387,8 @@
             "_chains": {
               "BUsDR5AZTk3G0Szq1kMUAHL7IIkGv2oV15lZwOziyId5": {
                 "chainKey": {
-                  "counter": 0,
-                  "key": "f6aDasLiMp0ijJwZzQVqfjB008s/DOe4/shty4o3PuA="
+                  "counter": 4,
+                  "key": "GUGGTPKxmcjRx3u6Fpu9hgt15xg/Ova6GK8TslTqNTQ="
                 },
                 "chainType": 2,
                 "messageKeys": {}
