@@ -38,12 +38,13 @@ let tqto = `╭──〔  THANKS TO  〕─⬣
 ⫹⫺ ᎪᏆNᎬᎬ
 ⫹⫺ FᎪᎻᎡᏆ
 ⫹⫺ ᎠᎪNᏆ ᎾFFᏆᏟᏆᎪᏞ
+⫹⫺ ᎪᎡᏌᏞᏞ ᎾFᏟ
 ╰─────────────⬣
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/bot_whangsaf",
+    mediaUrl: "https://Instagram.com/sahrulwara_____",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/bot_whangsaf", 
+    description: "https://Instagram.com/sahrulwara_____", 
     title: 'Simple Bot Esm',
     body: wm,
     thumbnail: thumb,
