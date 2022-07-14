@@ -34,7 +34,7 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://violetics.pw': 'beta'
 }
-global.wm = '                「 BotzArull⁩ 」' //Main Watermark
+global.wm = '「 BotzArull⁩ 」' //Main Watermark
 
 global.wm2 = '꒷︶꒷꒥BotzArull ꒱ ‧₊˚꒷︶꒷꒥꒷'
 
