@@ -99,9 +99,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     //conn.sendHydrated(m.chat, text.trim(), conn.getName(conn.user.jid), await genProfile(conn, m), 'https://youtu.be/Gr6yuCbSGTI', 'YouTube', null, null, [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], m)
    // conn.sendMessage(m.chat, { video: { url: 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg' }, gifPlayback: true, gifAttribution: ~~(Math.random() * 2), caption: text.trim(), footer: await conn.getName(conn.user.jid) , templateButtons: [{ quickReplyButton: { displayText: 'Speedtest', id: `${_p}ping` }}, { quickReplyButton: { displayText: 'Owner', id: `${_p}owner` }} ] })
    conn.sendButton(m.chat, `*${wish()}, ${name} 👋*`, text.trim(), await genProfile(conn, m), [['Speedtest', _p + 'ping'], ['Owner', _p + 'owner']], false, { quoted: fkon, contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/bot_whangsaf",
+    mediaUrl: "https://Instagram.com/sahrulwara_____",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/bot_whangsaf", 
+    description: "https://Instagram.com/sahrulwara_____", 
     title: 'Simple Bot Esm',
     body: wm,
     thumbnail: thumb,
