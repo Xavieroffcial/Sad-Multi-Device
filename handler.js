@@ -502,9 +502,9 @@ export async function handler(chatUpdate) {
 	                if (!('sBye' in chat)) chat.sBye = ''
 	                if (!('sPromote' in chat)) chat.sPromote = ''
 	                if (!('sDemote' in chat)) chat.sDemote = ''
-	                if (!('antiDelete' in chat)) chat.antiDelete = false
-	                if (!('antiLink' in chat)) chat.antiLink = false
-	                if (!('viewOnce' in chat)) chat.viewOnce = false
+	                if (!('antiDelete' in chat)) chat.antiDelete = true
+	                if (!('antiLink' in chat)) chat.antiLink = true
+	                if (!('viewOnce' in chat)) chat.viewOnce = true
 			if (!('nsfw' in chat)) chat.nsfw = false
                         if (!('premnsfw' in chat)) chat.premnsfw = false
 			if (!('premium' in chat)) chat.premium = false
@@ -519,9 +519,9 @@ export async function handler(chatUpdate) {
 	                sBye: '',
 	                sPromote: '',
 	                sDemote: '',
-	                antiDelete: false,
-	                antiLink: false,
-	                viewOnce: false,
+	                antiDelete: true,
+	                antiLink: true,
+	                viewOnce: true,
 			simi: false,
                         nsfw: false,
                         premnsfw: false,
@@ -894,16 +894,16 @@ To turn off this feature, type
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'This command can only be used by _*OWWNER!1!1!*_',
-        owner: 'This command can only be used by _*Owner Bot*_!',
-        mods: 'This command can only be used by _*Moderator*_ !',
-        premium: 'This command is only for _*Premium*_ members!',
-        group: 'This command can only be used in groups!',
-        private: 'This command can only be used in Private Chat!',
-        admin: 'This command is only for *Admin* group!',
-        botAdmin: 'Make bot as *Admin* to use this command!',
+        rowner: 'Khusus *OWWNER*',
+        owner: 'Khusus *Owner Bot*',
+        mods: 'Khusus *Moderator*',
+        premium: 'Khusus *Premium*',
+        group: 'Khusus *groups!*',
+        private: 'Khusus *Private Chat!*',
+        admin: 'Khusus *Admin* group!',
+        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
         unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Dani.17*',
-        restrict: 'This feature is *disabled*!'
+        restrict: 'Fitur ini *dinonaktifkan*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
 }
