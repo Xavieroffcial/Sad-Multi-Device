@@ -8,10 +8,10 @@ let wibu = `https://api.zacros.my.id/randomimg/loli`
 let thumb = await(await fetch(wibu)).buffer()
 user.afk = + new Date
 user.afkReason = text
- conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} is now AFK${text ? ': ' + text : ''}`, wm, 'Jangan Ganggu Ya', 'Bilek', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
+ conn.sendButtonDoc(m.chat, `${conn.getName(m.sender)} Telah Afk${text ? ': ' + text : ''}`, wm, 'Jangan Ganggu Ya', 'Bilek', m,  { contextInfo: { externalAdReply: { showAdAttribution: true,
         mediaUrl: "https://Instagram.com/bot_whangsaf",
         mediaType: "VIDEO",
-        description: "https://Instagram.com/bot_whangsaf", 
+        description: "https://www.instagram.com/p/Cf_VZGUPuwY/?igshid=YmMyMTA2M2Y=", 
         title: 'Simple Bot Esm',
         body: wm,
         thumbnail: thumb,
