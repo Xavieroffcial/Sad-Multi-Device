@@ -8,7 +8,7 @@ _*Pulsa/Pulse(Indosat):*_ 085822347348
 _*Dana:*_ 085822347348
 Setelah melakukan donasi kirim bukti pembayaran ke owner,Dengan melakukan donasi,kamu telah mensupport bot ini agar on 24 jam dan fast respon
 `
-conn.sendHydrated(m.chat, str, wm, pepe, 'https://github.com/YTDANIBOTZ/', '𝙶𝙸𝚃𝙷𝚄𝙱', null, null, [
+conn.sendHydrated(m.chat, str, wm, pepe, 'https://youtube.com/channel/UC1ikkqsPvtWuE_QonsET1yg', 'My YouTube', null, null, [
 ['𝙼𝙴𝙽𝚄', '/menu']
 ], m)
 
