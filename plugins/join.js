@@ -22,4 +22,5 @@ let imgr = flaaa.getRandom()
 }
 handler.command = /^join$/i
 handler.premium = false
+handler.owner = true
 export default handler
