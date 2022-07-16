@@ -18,4 +18,5 @@ return conn.sendButton(m.chat,caption, wm, 'Ok', 'y sj')
 }
 handler.command = /^join$/i
 handler.premium = true
+handler.owner = true
 export default handler
