@@ -882,9 +882,9 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (!chat.antiDelete) return
         await this.reply(msg.chat, `
-Detected @${participant.split`@`[0]} deleted message
-To turn off this feature, type
-*.enable delete*
+Terdeteksi @${participant.split`@`[0]} pesan yang dihapus
+Untuk mematikan fitur ini, ketik
+*.off delete*
 `.trim(), msg, { mentions: [participant] })
         this.copyNForward(msg.chat, msg).catch(e => console.log(e, msg))
     } catch (e) {
@@ -925,7 +925,7 @@ global.dfail = (type, m, conn) => {
 ┗━━━━━━━━━━━━━━━━━━㉿
 ┏━━〔 ıll CONTOH llı 〕━㉿
 ⬡ #daftar namamu.umurmu
-⬡ #daftar @${m.sender.split`@`[0]}.18
+⬡ #daftar Arull.18
 ┗━━━━━━━━━━㉿',
         restrict: 'Fitur ini *dinonaktifkan*!'
     }[type]
