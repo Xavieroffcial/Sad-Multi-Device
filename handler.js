@@ -894,40 +894,18 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-    rowner: `╭─֍〔 ıll *OWNER* llı 〕֍─
+        rowner: '╭─֍〔 ıll *OWNER* llı 〕֍─
 ⬡ Perintah ini hanya untuk *pemilik bot*
-╰─────────────────֍`,
-    owner: `╭─֍〔 ıll *OWNER* llı 〕֍─
-⬡ Perintah ini hanya untuk *pemilik bot*
-╰─────────────────֍`,
-    mods: `╭─֍〔 ıll *OWNER* llı 〕֍─
-⬡ Perintah ini hanya untuk *pemilik bot*
-╰─────────────────֍`,
-    premium: `╭─֍〔 ıll *PREMIUM* llı 〕֍─
-⬡ Fitur ini hanya tersedia untuk user *Premium*
-╰─────────────────֍`,
-    group: `╭─֍〔 ıll *GROUP* llı 〕֍─
-⬡ Fitur ini hanya dapat digunakan didalam grup!!
-╰─────────────────֍`,
-    private: `╭─֍〔 ıll *PRIVATE* llı 〕֍─
-⬡ Fitur ini hanya dapat digunakan diprivate chat
-╰─────────────────֍`,
-    admin: `╭─֍〔 ıll *ADMIN GROUP* llı 〕֍─
-⬡ Fitur ini hanya tersedia untuk admin grup!!
-╰─────────────────֍`,
-    botAdmin: `╭─֍〔 ıll *WARNING* llı 〕֍─
-⬡ Fitur ini tidak dapat work, bot tidak menjadi admin
 ╰─────────────────֍',
-        unreg: '┏━━━〔 ıll 𝐔𝐍𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━㉿
-⬡ Hallo mypren👋
-⬡ Sebelum melihat fitur bot, lebih baik register dulu
-⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
-┗━━━━━━━━━━━━━━━━━━㉿
-┏━━〔 ıll CONTOH llı 〕━㉿
-⬡ #daftar namamu.umurmu
-⬡ #daftar Arull.18
-┗━━━━━━━━━━㉿',
-        restrict: 'Fitur ini *dinonaktifkan*!'
+        owner: 'This command can only be used by _*Owner Bot*_!',
+        mods: 'This command can only be used by _*Moderator*_ !',
+        premium: 'This command is only for _*Premium*_ members!',
+        group: 'This command can only be used in groups!',
+        private: 'This command can only be used in Private Chat!',
+        admin: 'This command is only for *Admin* group!',
+        botAdmin: 'Make bot as *Admin* to use this command!',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arull.17*',
+        restrict: 'This feature is *disabled*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
 }
