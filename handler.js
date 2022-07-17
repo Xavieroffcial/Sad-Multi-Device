@@ -894,15 +894,39 @@ To turn off this feature, type
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Khusus *OWWNER*',
-        owner: 'Khusus *Owner Bot*',
-        mods: 'Khusus *Moderator*',
-        premium: 'Khusus *Premium*',
-        group: 'Khusus *groups!*',
-        private: 'Khusus *Private Chat!*',
-        admin: 'Khusus *Admin* group!',
-        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arull.18*',
+    rowner: `╭─֍〔 ıll *OWNER* llı 〕֍─
+⬡ Perintah ini hanya untuk *pemilik bot*
+╰─────────────────֍`,
+    owner: `╭─֍〔 ıll *OWNER* llı 〕֍─
+⬡ Perintah ini hanya untuk *pemilik bot*
+╰─────────────────֍`,
+    mods: `╭─֍〔 ıll *OWNER* llı 〕֍─
+⬡ Perintah ini hanya untuk *pemilik bot*
+╰─────────────────֍`,
+    premium: `╭─֍〔 ıll *PREMIUM* llı 〕֍─
+⬡ Fitur ini hanya tersedia untuk user *Premium*
+╰─────────────────֍`,
+    group: `╭─֍〔 ıll *GROUP* llı 〕֍─
+⬡ Fitur ini hanya dapat digunakan didalam grup!!
+╰─────────────────֍`,
+    private: `╭─֍〔 ıll *PRIVATE* llı 〕֍─
+⬡ Fitur ini hanya dapat digunakan diprivate chat
+╰─────────────────֍`,
+    admin: `╭─֍〔 ıll *ADMIN GROUP* llı 〕֍─
+⬡ Fitur ini hanya tersedia untuk admin grup!!
+╰─────────────────֍`,
+    botAdmin: `╭─֍〔 ıll *WARNING* llı 〕֍─
+⬡ Fitur ini tidak dapat work, bot tidak menjadi admin
+╰─────────────────֍',
+        unreg: '┏━━━〔 ıll 𝐔𝐍𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━㉿
+⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
+⬡ Sebelum melihat fitur bot, lebih baik register dulu
+⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
+┗━━━━━━━━━━━━━━━━━━㉿
+┏━━〔 ıll CONTOH llı 〕━㉿
+⬡ #daftar namamu.umurmu
+⬡ #daftar @${m.sender.split`@`[0]}.18
+┗━━━━━━━━━━㉿',
         restrict: 'Fitur ini *dinonaktifkan*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
