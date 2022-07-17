@@ -919,7 +919,7 @@ global.dfail = (type, m, conn) => {
 ⬡ Fitur ini tidak dapat work, bot tidak menjadi admin
 ╰─────────────────֍',
         unreg: '┏━━━〔 ıll 𝐔𝐍𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━㉿
-⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
+⬡ Hallo mypren👋
 ⬡ Sebelum melihat fitur bot, lebih baik register dulu
 ⬡ Kalau tidak kelihatan button nya, contohnya dibawah!
 ┗━━━━━━━━━━━━━━━━━━㉿
