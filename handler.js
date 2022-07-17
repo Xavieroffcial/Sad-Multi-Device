@@ -882,7 +882,7 @@ export async function deleteUpdate(message) {
         let chat = global.db.data.chats[msg.chat] || {}
         if (!chat.antiDelete) return
         await this.reply(msg.chat, `
-Terdeteksi @${participant.split`@`[0]} pesan yang dihapus
+Terdeteksi @${participant.split`@`[0]} menghapus pesan
 Untuk mematikan fitur ini, ketik
 *.off delete*
 `.trim(), msg, { mentions: [participant] })
@@ -894,17 +894,15 @@ Untuk mematikan fitur ini, ketik
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '╭─֍〔 ıll *OWNER* llı 〕֍─
-⬡ Perintah ini hanya untuk *pemilik bot*
-╰─────────────────֍',
-        owner: 'This command can only be used by _*Owner Bot*_!',
-        mods: 'This command can only be used by _*Moderator*_ !',
-        premium: 'This command is only for _*Premium*_ members!',
-        group: 'This command can only be used in groups!',
-        private: 'This command can only be used in Private Chat!',
-        admin: 'This command is only for *Admin* group!',
+        rowner: 'Khusus *OWNER*',
+        owner: 'Khusus *OWNER*',
+        mods: 'Khusus *MODERATOR*',
+        premium: 'Khusus *PREMIUM*',
+        group: 'Khusus *group*',
+        private: 'Khusus *PRIVATE CHAT*',
+        admin: 'Khusus *ADMIN GROUP*',
         botAdmin: 'Make bot as *Admin* to use this command!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arull.17*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arull.18*',
         restrict: 'This feature is *disabled*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
