@@ -9,9 +9,9 @@ global.owner = [
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
-global.lolkey = 'YourApikey'
-global.xkey = 'YourApikey'
+global.prems = ['6285822347348'] // Premium user has unlimited limit
+global.lolkey = 'Papah-Chan'
+global.xkey = 'BagasPrdn'
 global.APIs = { // API Prefix
   // name: 'https://website'
   lolhuman: 'https://api.lolhuman.xyz',
