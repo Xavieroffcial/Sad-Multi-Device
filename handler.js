@@ -855,7 +855,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 .toAttachment()
                             
                         // this.sendFile(id, action === 'add' ? wel : lea, pp, 'pp.jpg', text, null, false, { mentions: [user] })
-                       await this.sendHydrated(id, text, wm, action === 'add' ? wel.toBuffer() : lea.toBuffer(), sgc, (action == 'add' ? 'Hai Selamat Datang👋' : 'Bye Beban Keluarga 👋'), user.split`@`[0], 'USER NUMBER', [
+                       await this.sendHydrated(id, text, wm, action === 'add' ? wel.toBuffer() : lea.toBuffer(), sgc, (action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'ʙʏᴇ'), user.split`@`[0], 'ɴᴏᴍᴏʀ ᴜꜱᴇʀ', [
       [null, null],
       [null, null]
     ], null, false, { mentions: [user] })
