@@ -902,7 +902,7 @@ global.dfail = (type, m, conn) => {
         private: 'Khusus *Private Chat!*',
         admin: 'Khusus *Admin* group!',
         botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Dani.17*',
+        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Arull.18*',
         restrict: 'Fitur ini *dinonaktifkan*!'
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, { contextInfo: { externalAdReply: {title: global.wm, body: '404 Access denied!', sourceUrl: sgc, thumbnail: fs.readFileSync('./thumbnail.jpg') }}})
