@@ -129,13 +129,13 @@ handler.tags = ['general']
 handler.alias = ['m']
 handler.command = /^(m)$/i
 handler.exp = 3
-handler.register = true
+handler.register = false
 handler.owner = false
 handler.mods = false
 handler.premium = false
 handler.group = false
 handler.private = false
-handler.register = true
+handler.register = false
 handler.admin = false
 handler.botAdmin = false
 
