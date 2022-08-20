@@ -4,12 +4,12 @@ import { watchFile, unwatchFile } from 'fs'
 import moment from 'moment-timezone'
 
 global.owner = [
-  ['+62 858-2234-7348'],
-  ['+62 858-2234-7348', 'ArullOfc', true],
+  ['+62 838-6200-6229'],
+  ['+62 838-6200-6229', 'Skyxmoon', true],
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = ['6285822347348'] // Premium user has unlimited limit
+global.prems = ['6283862006229'] // Premium user has unlimited limit
 global.lolkey = ''
 global.xkey = ''
 global.APIs = { // API Prefix
@@ -34,11 +34,11 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://violetics.pw': 'beta'
 }
-global.wm = '「 BotzArull⁩ 」' //Main Watermark
+global.wm = '「 Filobot⁩ 」' //Main Watermark
 
-global.wm2 = '꒷︶꒷꒥BotzArull ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm2 = '꒷︶꒷꒥Filobot ꒱ ‧₊˚꒷︶꒷꒥꒷'
 
-global.wm3 = 'BotzArull'
+global.wm3 = '𝙵𝙸𝙻𝙾𝙱𝙾𝚃'
 
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 
@@ -47,7 +47,7 @@ global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:m
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
 `
 
-global.author = '「 BotzArull 」⁩ '
+global.author = '「 Filobot 」⁩ '
 
 global.thumbnailUrl = [
   'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg', 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg',
@@ -64,10 +64,10 @@ global.flaaa = [
   'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
  ]
 global.sgc = 'https://youtu.be/IL2PZql859c'
-global.sig = 'https://www.instagram.com/sahrulwara_____'
+global.sig = 'https://instagram.com/skymoonn_real?igshid=YmMyMTA2M2Y='
 //========Url Template Buttons=========//
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/sahrulwara_____"
+global.urlnya = "https://instagram.com/skymoonn_real?igshid=YmMyMTA2M2Y="
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
@@ -84,10 +84,10 @@ global.hbunny = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://t
 global.hbeach = ['https://telegra.ph/file/14ae0ba2da77d74e6b80c.jpg', 'https://telegra.ph/file/b6905b77e6c7732592a13.jpg','https://telegra.ph/file/9da45a352eb4c40e5d641.jpg', 'https://telegra.ph/file/59e78846ee365975ee6e3.jpg','https://telegra.ph/file/1bf7dee46b83eb4c41d7d.jpg','https://telegra.ph/file/0525a7929f819cb8278f3.jpg']
 global.bg = ['https://telegra.ph/file/2b71a8d46d29351479fbc.jpg', 'https://telegra.ph/file/ae610571b62b5ab876e9c.jpg', 'https://telegra.ph/file/cc8255d5b989eef587af2.jpg','https://telegra.ph/file/30d2e7375996abd9cfee3.jpg']
 /*============== NOMOR ==============*/
-global.nomorbot = '6281348735630'
-global.nomorown = '6285822347348'
-global.namebot = 'BotzArull'
-global.nameown = 'ArullOfc👑'
+global.nomorbot = '6283811823356'
+global.nomorown = '6283862006229'
+global.namebot = 'Filobot-Md'
+global.nameown = 'SkyxmoonOffc👑'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
