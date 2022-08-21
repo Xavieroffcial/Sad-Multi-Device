@@ -50,11 +50,11 @@ global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm
 global.author = '「 Filobot 」⁩ '
 
 global.thumbnailUrl = [
-  'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg', 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg',
-  'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg', 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg',
-  'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg', 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg',
-  'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg', 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg',
-  'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg', 'https://telegra.ph/file/24248fa2bbb8ce9b6d834.jpg'
+  'https://telegra.ph/file/2aec76253bdd336c5466e.jpg', 'https://telegra.ph/file/2aec76253bdd336c5466e.jpg',
+  'https://telegra.ph/file/2aec76253bdd336c5466e.jpg', 'https://telegra.ph/file/2aec76253bdd336c5466e.jpg',
+  'https://telegra.ph/file/2aec76253bdd336c5466e.jpg', 'https://telegra.ph/file/2aec76253bdd336c5466e.jpg',
+  'https://telegra.ph/file/2aec76253bdd336c5466e.jpg', 'https://telegra.ph/file/2aec76253bdd336c5466e.jpg',
+  'https://telegra.ph/file/2aec76253bdd336c5466e.jpg', 'https://telegra.ph/file/2aec76253bdd336c5466e.jpg'
 ]
 global.flaaa = [
   'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
